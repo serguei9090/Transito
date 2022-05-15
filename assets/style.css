@@ -57,3 +57,34 @@ figcaption {
     padding: 3px;
     text-align: center;
 }
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+}
+body { padding-top: 70px; }
+.float{
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0d6efd;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    display:none;
+    margin-bottom: 2rem;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.float:hover{
+    color:#111111;
+}
+/* TODO: set center all content in course when get mobile viewport */
