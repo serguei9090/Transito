@@ -87,4 +87,10 @@ body { padding-top: 70px; }
 .float:hover{
     color:#111111;
 }
-/* TODO: set center all content in course when get mobile viewport */
+
+.btn_aboutUs_Modal {
+    border:none !important;
+    margin:0;
+    padding:0;
+    background-color:transparent;
+}
