@@ -148,25 +148,27 @@
     <section class="main_content d-flex flex-grow-1 align-items-center justify-content-center" id="main_content">
         <!-- Main content container -->
         <!-- Print all pages in this container -->
-        <div class="card mb-3" style="max-width: 940px;">
+        <div class="card mb-3" style="max-width: 1140px;" id="1">
+            
         <!-- <div class="card mb-3" style="max-width: 940px;"> -->
             <div class="row g-0">
                 <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title">Pregunta #1:</h5>
+                        <div classes="countdown"></div>
                         <p class="card-text">Todo conductor que
                             circule por una vía, al escuchar el sonido de la sirena o aparato similar
                             u observe la luz intermitente, advirtiendo la proximidad de un vehículo
                             requiriendo la prioridad en la circulación, está obligado a:</p>
                         <br>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="respuesta_1" value="1">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="1">
                             <label class="form-check-label" for="flexRadioDefault1">
                                 Arrimarlo y detenerlo al borde derecho de la vía, en el sentido en que circula.
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="respuesta_2" value="2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="2">
                             <label class="form-check-label" for="flexRadioDefault2">
                                 Cambiar de senda o carril utilizando el
                                 inmediato derecho, cuando transita por una vía de más de dos sendas o
@@ -175,8 +177,8 @@
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="respuesta_3" value="3">
-                            <label class="form-check-label" for="flexRadioDefault2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="3">
+                            <label class="form-check-label" for="flexRadioDefault3">
                                 Continuar su desplazamiento por la senda o carril por el que se encuentre circulando,
                                 disminuyendo la velocidad, para permitir el adelantamiento por el lado izquierdo del eje central
                                 de la vía.
@@ -184,11 +186,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <img src="Files/test_1/mht9175(1).jpg" class="img-fluid rounded-start" alt="...">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="Files/test_1/mht9175(1).jpg" class="img-fluid w-100 img-responsive rounded-start"  alt="..." id="imagen">
+                    <!-- <i class="fa fa-check" aria-hidden="true"></i> -->
                 </div>
+                <a href="#" class="btn btn-primary submit" id="revisar">Revisar</a>
             </div>
-            <div id="log"></div>
         </div>
         
     </section>
@@ -215,6 +218,7 @@
     <script src="assets/JS/prueba_1.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/JS/timer.js"></script>
     <script src="assets/vendor/jquery.paginator/flexible.pagination.js"></script>
 </body>
 
