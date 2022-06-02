@@ -59,7 +59,7 @@ figcaption {
 }
 
 #navbar {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 100%;
     transition: top 0.3s;
@@ -88,17 +88,139 @@ body { padding-top: 70px; }
     color:#111111;
 }
 
-.btn_aboutUs_Modal {
+.btn_nav_Modal {
     border:none !important;
     margin:0;
     padding:0;
     background-color:transparent;
 }
+
 .fa-check::before{
     color:#198754;
-    font-size: 25.5vw;
+    font-size: 22vw;
+
 }
 .fa-exclamation-triangle::before{
     color:#dc3545;
-    font-size: 25.5vw;
+    font-size: 19vw;
 }
+.btn_icon{
+    align-self: center;
+}
+.dropdown-menu{
+    z-index: 2;
+}
+
+/* #main_p{
+    z-index: -1;
+} */
+
+.score{
+    text-align: center;
+    font-size: 24vw;
+}
+.aprobado{
+    color:#198754;
+}
+.desaprobado{
+    color:#dc3545;
+    /* font-family: Oswald; */
+    /* font-size: 100px;
+    animation: Color 4s linear infinite;
+    -webkit-animation: Color 4s ease-in-out infinite;
+    text-shadow: 10px 10px #F0F0F0; */
+}
+/* Countdown timer */
+.coundown_cont{
+    display:none;
+}
+.countdown{
+        color:#0d6efd;
+       /* text-align: center;  */
+}
+
+.coundown_cont{
+    top: 0; /* or whatever position is desired */
+    left: 0;
+    right: 0;
+    height: 0;
+}
+
+/* Text title animation for aprobado o no aprobado if needed */ 
+/* @keyframes Color{
+    0%{
+        color:#cf8189;
+    }
+    
+    20%{
+        color:#ce6570;
+    }
+    
+    40%{
+        color:#FFCE54;
+    }
+    
+    60%{
+        color:#FC6E51;
+    }
+    
+    80%{
+        color:#ED5565;
+    }
+    
+    100%{
+        color:#dc3545;
+    }
+}
+
+@-moz-keyframes Color{
+    0%{
+        color:#A0D468;
+    }
+    
+    20%{
+        color:#4FC1E9;
+    }
+    
+    40%{
+        color:#FFCE54;
+    }
+    
+    60%{
+        color:#FC6E51;
+    }
+    
+    80%{
+        color:#ED5565;
+    }
+    
+    100%{
+        color:#AC92EC;
+    }
+}
+
+@-webkit-keyframes Color{
+    0%{
+        color:#A0D468;
+    }
+    
+    20%{
+        color:#4FC1E9;
+    }
+    
+    40%{
+        color:#FFCE54;
+    }
+    
+    60%{
+        color:#FC6E51;
+    }
+    
+    80%{
+        color:#ED5565;
+    }
+    
+    100%{
+        color:#AC92EC;
+    }
+} */

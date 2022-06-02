@@ -33,7 +33,7 @@
 </head>
 
 <body class="d-flex flex-column vh-100" id="body">
-    <nav id="navbar" class="navbar navbar-default navbar-trans navbar-expand-lg navbar-dark bg-primary">
+    <nav id="navbar" class="navbar navbar-default navbar-trans navbar-expand-lg navbar-dark bg-primary fixed-top">
         <div class="container">
             <a class="navbar-brand home" href="#" id="nav_logo">
                 <img class="image-brand" src="" alt="Curso de Transito">
@@ -48,42 +48,42 @@
             <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active home" href="#home" id="home">Inicio</a>
+                        <a class="nav-link active home" href="#" id="home">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <!-- Button to Open the Modal -->
-                        <button type="button" class="btn_aboutUs_Modal" data-bs-toggle="modal" data-bs-target="#aboutUs_Modal">
+                        <button type="button" class="btn_nav_Modal" data-bs-toggle="modal" data-bs-target="#aboutUs_Modal">
                             <a class="nav-link" href="#About" id="l_about">Sobre Nosotros</a>
                         </button>
                     </li>
-                    <button type="button" class="btn_aboutUs_Modal" data-bs-toggle="modal" data-bs-target="#contact_Modal">
-                        <a class="nav-link" href="#About" id="l_about">Contacto</a>
+                    <button type="button" class="btn_nav_Modal" data-bs-toggle="modal" data-bs-target="#contact_Modal">
+                        <a class="nav-link" href="#Contact" id="l_about">Contacto</a>
                     </button>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Pruebas
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a href="javascript:ptest_1()" class="dropdown-item">P1</a></li>
-                            <li><a href="javascript:ptest_2()" class="dropdown-item">P2</a></li>
-                            <li><a href="javascript:ptest_3()" class="dropdown-item">P3</a></li>
-                            <li><a href="javascript:ptest_4()" class="dropdown-item">P4</a></li>
-                            <li><a href="javascript:ptest_5()" class="dropdown-item">P5</a></li>
-                            <li><a href="javascript:ptest_6()" class="dropdown-item">P6</a></li>
-                            <li><a href="javascript:ptest_7()" class="dropdown-item">P7</a></li>
-                            <li><a href="javascript:ptest_8()" class="dropdown-item">P8</a></li>
-                            <li><a href="javascript:ptest_9()" class="dropdown-item">P9</a></li>
-                            <li><a href="javascript:ptest_10()" class="dropdown-item">P10</a></li>
-                            <li><a href="javascript:ptest_11()" class="dropdown-item">P11</a></li>
-                            <li><a href="javascript:ptest_12()" class="dropdown-item">P12</a></li>
-                            <li><a href="javascript:ptest_13()" class="dropdown-item">P13</a></li>
-                            <li><a href="javascript:ptest_14()" class="dropdown-item">P14</a></li>
-                            <li><a href="javascript:ptest_15()" class="dropdown-item">P15</a></li>
-                            <li><a href="javascript:ptest_16()" class="dropdown-item">P16</a></li>
-                            <li><a href="javascript:ptest_17()" class="dropdown-item">P17</a></li>
-                            <li><a href="javascript:ptest_18()" class="dropdown-item">P18</a></li>
-                            <li><a href="javascript:ptest_19()" class="dropdown-item">P19</a></li>
-                            <li><a href="javascript:ptest_20()" class="dropdown-item">P20</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_0">P1</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_1">P2</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_2">P3</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_3">P4</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_4">P5</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_5">P6</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_6">P7</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_7">P8</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_8">P9</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_9">P10</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_10">P11</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_11">P12</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_12">P13</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_13">P14</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_14">P15</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_15">P16</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_16">P17</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_17">P18</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_18">P19</a></li>
+                            <li><a href="#" class="dropdown-item navPrueba" id="navPrueba_19">P20</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -125,7 +125,7 @@
     
                 <!-- Modal Header -->
                 <div class="modal-header">
-                    <h4 class="modal-title">Sobre Nosotros</h4>
+                    <h4 class="modal-title">Contacto</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
     
@@ -145,55 +145,78 @@
             </div>
         </div>
     </div>
+    <div class="container coundown_cont d-flex flex-column">
+        <div class=" row">
+            <div class="countdown fw-bold fs-1 text-center"></div>
+        </div>
+    </div>
     <section class="main_content d-flex flex-grow-1 align-items-center justify-content-center" id="main_content">
         <!-- Main content container -->
         <!-- Print all pages in this container -->
-        <div class="card mb-3" style="max-width: 1140px;" id="1">
-            
+        <div class="container" id="main_p">
+        <div class="card mb-3" style="max-width: 1140px;" id="2">
         <!-- <div class="card mb-3" style="max-width: 940px;"> -->
             <div class="row g-0">
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Pregunta #1:</h5>
-                        <div classes="countdown"></div>
-                        <p class="card-text">Todo conductor que
-                            circule por una vía, al escuchar el sonido de la sirena o aparato similar
-                            u observe la luz intermitente, advirtiendo la proximidad de un vehículo
-                            requiriendo la prioridad en la circulación, está obligado a:</p>
+                        <h5 class="card-title" id="prueba_1">Pregunta #20:</h5> 
+                        <p class="card-text">  El conductor de un ómnibus de transporte público conduce su vehículo con una sola mano y conversa amistosamente con un pasajero, luego se detiene en una parada y recoge a varias personas, continuando la marcha sin que la puerta esté cerrada, más adelante cruza un intersección semaforizada al casi concluir el tiempo de la luz verde, un Agente de Orden Público lo detiene y observa que ha ingerido bebidas alcohólicas, aunque sin afectar su capacidad de conducir. ¿Cuántas infracciones cometió?
+                        </p>
                         <br>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="1">
                             <label class="form-check-label" for="flexRadioDefault1">
-                                Arrimarlo y detenerlo al borde derecho de la vía, en el sentido en que circula.
+                                3 infracciones.
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="2">
                             <label class="form-check-label" for="flexRadioDefault2">
-                                Cambiar de senda o carril utilizando el
-                                inmediato derecho, cuando transita por una vía de más de dos sendas o
-                                carriles en un mismo sentido de dirección y continuar su desplazamiento en
-                                marcha lenta.
+                                4 infracciones.
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="3">
                             <label class="form-check-label" for="flexRadioDefault3">
-                                Continuar su desplazamiento por la senda o carril por el que se encuentre circulando,
-                                disminuyendo la velocidad, para permitir el adelantamiento por el lado izquierdo del eje central
-                                de la vía.
+                                2 infracciones.
                             </label>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 d-flex justify-content-center">
-                    <img src="Files/test_1/mht9175(1).jpg" class="img-fluid w-100 img-responsive rounded-start"  alt="..." id="imagen">
+                    <img src="Files/test_1/mht921B(1).jpg" class="img-fluid w-100 img-responsive rounded-start"  alt="..." id="imagen">
+                    
                     <!-- <i class="fa fa-check" aria-hidden="true"></i> -->
                 </div>
                 <a href="#" class="btn btn-primary submit" id="revisar">Revisar</a>
             </div>
         </div>
-        
+    </div>
+    <!-- The Modal Response if wrong answer -->
+    <div class="modal" id="answer_Modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+    
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Respuesta</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+    
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p>pag:x articulo 12</p>
+                    <p>Arrimarlo y detenerlo al borde derecho de la vía, en el sentido en que circula.</p>
+                </div>
+    
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+    
+            </div>
+        </div>
+    </div>
     </section>
     <footer
         class="footer mt-auto py-3 text-center text-lg-start text-white contact justify-content-center navbar-dark bg-primary"
@@ -213,12 +236,11 @@
     </footer>
     <!-- Content -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/JS/prueba_1.js"></script>
     <script src="assets/JS/main.js"></script>
     <script src="assets/JS/curso.js"></script>
-    <script src="assets/JS/prueba_1.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/JS/timer.js"></script>
     <script src="assets/vendor/jquery.paginator/flexible.pagination.js"></script>
 </body>
 
