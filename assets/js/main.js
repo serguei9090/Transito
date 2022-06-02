@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 // ====Variables=====
-var question_num=0
+var question_num=19
 var test_num=0
 var counter=0
 var result=0
